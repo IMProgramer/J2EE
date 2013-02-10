@@ -16,7 +16,9 @@ local.properties
 .settings/
 .loadpath
 *.bat
-
+*.gitignore
+*.gitattributes
+command/
 # External tool builders
 .externalToolBuilders/
 
