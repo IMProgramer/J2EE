@@ -1,0 +1,1 @@
+copy D:\Exp\J2EE\web\result.jsp D:\Programming\Tomcat\webapps\app1

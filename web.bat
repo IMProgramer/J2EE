@@ -1,0 +1,1 @@
+copy D:\Exp\J2EE\etc\web.xml D:\Programming\Tomcat\webapps\app1\WEB-INF

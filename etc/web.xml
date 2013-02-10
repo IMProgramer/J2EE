@@ -3,12 +3,21 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
 version="2.4">
-<servlet>
-<servlet-name>Games</servlet-name>
-<servlet-class>com.example.web.GameSelect</servlet-class>
-</servlet>
-<servlet-mapping>
-<servlet-name>Games</servlet-name>
-<url-pattern>/yash</url-pattern>
-</servlet-mapping>
+    <servlet>
+        <servlet-name>Games</servlet-name>
+        <servlet-class>com.example.web.GameSelect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Games</servlet-name>
+        <url-pattern>/yash</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <param-name>breed</param-name>
+        <param-value>Yashpal</param-value>
+    </context-param>
+    <listener>
+        <listener-class>
+        com.example.MyServletListener
+        </listener-class>
+    </listener>
 </web-app>
