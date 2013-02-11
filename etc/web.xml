@@ -4,20 +4,19 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
 version="2.4">
     <servlet>
-        <servlet-name>Games</servlet-name>
-        <servlet-class>com.example.web.GameSelect</servlet-class>
+        <servlet-name>Test</servlet-name>
+        <servlet-class>CookieTest</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Check</servlet-name>
+        <servlet-class>CookieCheck</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Games</servlet-name>
-        <url-pattern>/yash</url-pattern>
+        <servlet-name>Test</servlet-name>
+        <url-pattern>/test</url-pattern>
     </servlet-mapping>
-    <context-param>
-        <param-name>breed</param-name>
-        <param-value>Yashpal</param-value>
-    </context-param>
-    <listener>
-        <listener-class>
-        com.example.MyServletListener
-        </listener-class>
-    </listener>
+    <servlet-mapping>
+        <servlet-name>Check</servlet-name>
+        <url-pattern>/check</url-pattern>
+    </servlet-mapping>
 </web-app>
